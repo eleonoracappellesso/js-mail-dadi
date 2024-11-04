@@ -36,11 +36,19 @@ function numeroCasuale () {
     return Math.floor(Math.random() * 6) + 1;
 }
 
+// definisco le variabili
 const numeroGiocatore = numeroCasuale();
-console.log(numeroGiocatore);
+console.log('Il numero del giocatore è', numeroGiocatore);
 
 const numeroComputer = numeroCasuale();
-console.log(numeroComputer);
+console.log('Il numero del computer è', numeroComputer);
 
-
+// verifico chi è il vincitore conforntando i due numeri generati casualmente
+if(numeroGiocatore > numeroComputer) {
+    console.log("Ha vinto il giocatore!");
+} else if(numeroComputer > numeroGiocatore) {
+    console.log("Ha vinto il computer!");
+} else {
+    console.log('Nessun vincitore, è un pareggio.');
+}
 

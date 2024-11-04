@@ -26,6 +26,17 @@ Stampa il cubo dei primi N numeri,
 dove N è un numero indicato dall’utente
 */
 
+/*const N = parseInt(prompt('Inserisci un numero:'));
+
+if (isNaN(N)) {
+    for (let i = 1; i <= N; i++) {
+        const cubo = i ** 3;
+        console.log('Il cubo di ', N, 'è ', cubo);
+    }
+} else {
+    console.log("Il valore inserito non è valido. Inserisci un numero!");
+}*/
+
 
 
 /*

@@ -36,5 +36,11 @@ function numeroCasuale () {
     return Math.floor(Math.random() * 6) + 1;
 }
 
+const numeroGiocatore = numeroCasuale();
+console.log(numeroGiocatore);
+
+const numeroComputer = numeroCasuale();
+console.log(numeroComputer);
+
 
 

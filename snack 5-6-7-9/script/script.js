@@ -38,6 +38,21 @@ console.log('Le potenze di 2 fino a 1000 sono: ');
 
 while (potenza <= 1000) {
     console.log(potenza);
-// calcolo la potenza
+    // calcolo la potenza
     potenza *= 2;
 }
+
+/*
+JSnack 9
+Calcola la somma e la media dei primi 10 numeri
+*/
+
+let somma = 0;
+const numeroMax = 10;
+
+// sommo i primi 10 numeri
+for (let i = 1; i <= numeroMax; i++) {
+    somma += i;
+}
+console.log('La somma dei primi 10 numeri è ', somma);
+

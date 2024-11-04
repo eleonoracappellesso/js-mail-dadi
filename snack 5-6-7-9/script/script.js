@@ -56,3 +56,6 @@ for (let i = 1; i <= numeroMax; i++) {
 }
 console.log('La somma dei primi 10 numeri è ', somma);
 
+// calcolo la media
+const media = somma / numeroMax;
+console.log('La media dei primi 10 numeri è di: ', media);
